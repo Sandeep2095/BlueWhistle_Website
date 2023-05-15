@@ -507,7 +507,7 @@ const Team = () => {
 									class='col-md-7 order-md-2 text-center f-center'
 									style={{ height: '50vh', flexDirection: 'column', padding: '60px' }}
 								>
-									<h3>Mohd. Rishakat</h3>
+									<h3>Kashif Ahmad</h3>
 									<h6 style={{ color: '#b13f44' }}>Digital Marketing Executive</h6>
 									<p style={{ textAlign: 'justify' }}>
 										An individual responsible for creating content and turning ideas into
@@ -524,7 +524,7 @@ const Team = () => {
 
 											<li>
 												<a
-													href='https://www.linkedin.com/in/md-rishakat-5840791b0/'
+													href='https://www.linkedin.com/in/md-rishakt-5840791b0/'
 													target='_blank'
 													rel='noreferrer'
 												>
