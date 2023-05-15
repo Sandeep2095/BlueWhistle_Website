@@ -1,0 +1,39 @@
+.admin-teampage-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: 1rem auto;
+  padding: 20px;
+}
+
+.admin-teampage-container > div {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 21px 21px 36px #d0d0d0, -21px -21px 36px #f0f0f0;
+}
+
+.line-through-head {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.line-throught-span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.key-team-card{
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.value-team-card{
+  font-weight: normal;
+}

@@ -1,0 +1,14 @@
+.job-application-card > p{
+  margin: 2px;
+  font-size: 14px;
+}
+
+.job-application-card > p > span{
+  font-size: 13px;
+  font-weight: 100;
+  color: rgb(83, 80, 80);
+}
+
+.job-application-card > h4 > span{
+  color: rgb(83, 80, 80);
+}

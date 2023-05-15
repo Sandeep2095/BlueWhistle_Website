@@ -1,0 +1,131 @@
+.consulting-margin {
+	margin: 5rem auto;
+	min-height: 600px;
+	background: white;
+}
+
+.consulting-bg-box {
+	width: 75%;
+	background: #0e3252;
+	box-shadow: 0px 0px 12.61px 0.39px rgb(0 0 0 / 14%);
+	border: 2px solid lightgrey;
+	height: 600px;
+	position: absolute;
+	right: 0px;
+}
+
+.consulting-cont {
+	display: flex;
+	position: relative;
+	width: 100vw;
+	left: calc(-50vw + 50%);
+	top: 30px;
+	cursor: pointer;
+}
+
+.consulting-right-part {
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	position: relative;
+}
+
+.fixed-circle {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	top: 300px;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #4158d0; */
+	background-image: linear-gradient(-45deg, hsla(208, 71%, 19%, 0.8), #a7b4e9);
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+
+.consulting-right-part > img {
+	width: 100%;
+	max-width: 700px;
+	height: fit-content;
+	padding: 20px 40px 20px 10px;
+}
+
+.consulting-left-part {
+	width: 50%;
+	padding: 25px;
+}
+
+.consulting-left-part > div {
+	max-width: 650px;
+}
+
+.consulting-features-cont {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.font-20 {
+	font-size: 20px;
+}
+
+.col-white {
+	color: #fff;
+}
+
+/* css for screen size 0 - 1100px */
+@media screen and (max-width: 1100px) {
+	.consulting-margin {
+		margin: 0rem auto;
+		min-height: 70vh;
+		background: #0e3252;
+		border: 2px solid white;
+	}
+	.consulting-cont {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		width: 100vw;
+		left: calc(-50vw + 50%);
+		top: 0px;
+		/* box-shadow: 0px 0px 12.61px 0.39px rgb(0 0 0 / 14%);
+    border: 2px solid lightgrey; */
+		padding: 2rem 10px 0rem;
+	}
+	.fixed-circle {
+		display: none;
+	}
+	.consulting-bg-box {
+		/* width: 100%;
+    box-shadow: 0px 0px 12.61px 0.39px rgb(0 0 0 / 14%);
+    border: 2px solid lightgrey;
+    position: absolute; */
+		background: white;
+		display: none;
+	}
+	.consulting-left-part {
+		width: 100%;
+		padding: 25px;
+	}
+	.consulting-right-part {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.movable {
+		transform: none;
+	}
+
+	.consulting-left-part > div {
+		max-width: 650px;
+		margin: auto;
+	}
+	.consulting-right-part > img {
+		width: 100%;
+		max-width: 700px;
+		height: fit-content;
+		padding: 20px;
+	}
+}

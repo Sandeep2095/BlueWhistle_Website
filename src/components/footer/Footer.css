@@ -1,0 +1,13 @@
+.footer ul li a {
+	color: #fff;
+}
+
+@media (max-width: 991px) {
+	.footer {
+		margin: 20px !important;
+	}
+}
+
+.sci {
+	padding-left: 0.5rem !important;
+}

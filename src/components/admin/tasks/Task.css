@@ -1,0 +1,17 @@
+.task-top-div {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.task-top-right-div {
+	display: flex;
+	gap: 2px;
+	width: 50%;
+}
+
+.task-top-left-div {
+	display: flex;
+	justify-content: flex-end;
+	gap: 5px;
+	width: 50%;
+}

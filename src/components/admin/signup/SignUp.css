@@ -1,0 +1,11 @@
+.signupform{
+  margin: 2rem auto;
+}
+
+
+@media screen and (max-width:576px) {
+  .form-width{
+    width: 92%;
+    padding: 2rem !important;
+  }
+}

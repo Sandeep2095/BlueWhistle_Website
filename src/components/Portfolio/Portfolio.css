@@ -1,0 +1,14 @@
+@media screen and (max-width: 1100px) {
+	.port {
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	.col {
+		object-fit: contain;
+		margin-bottom: 10px;
+	}
+}
+
+.card {
+	cursor: pointer;
+}

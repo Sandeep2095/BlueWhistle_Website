@@ -1,0 +1,48 @@
+.career-form-container {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.career-img-container > img {
+  width: 100%;
+}
+
+.career-form-container > form {
+  width: 40%;
+  padding: 20px 10px;
+}
+
+.career-img-container {
+  width: 30%;
+  padding: 20px 10px;
+}
+
+.custom-input{
+  background-color: #f7f7f7 !important;
+  color: #333;
+  border: none;
+}
+
+.custom-input:focus,.custom-input:focus-visible{
+  border: none;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 800px) {
+  .career-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .career-form-container > form {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .career-img-container {
+    width: 80%;
+    padding: 20px 10px;
+  }
+}

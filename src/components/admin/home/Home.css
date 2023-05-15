@@ -1,0 +1,61 @@
+.home-time-logged {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 2rem auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-time-logged > div > span {
+  padding: 5px 15px;
+  margin: 5px 10px;
+}
+
+.home-time-logged > div > span:nth-child(1) {
+  border-right: 1px solid darkgray;
+}
+
+.home-time-logged > div > span:nth-child(2) {
+  border-right: 1px solid darkgray;
+}
+
+.project-tab-container {
+  min-height: 100px;
+  padding: 10px;
+}
+
+#home_tab_upcoming_task {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 2px;
+}
+.home-pro-card-item {
+  display: flex;
+  justify-content: space-between;
+}
+.home-people-card-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.dropdown-toggle-no-icon {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-toggle-no-icon:hover,
+.dropdown-toggle-no-icon:focus,
+.dropdown-toggle-no-icon:active {
+  background-color: transparent;
+}
+
+.dropdown-toggle-no-icon::after {
+  content: "";
+  display: none;
+}

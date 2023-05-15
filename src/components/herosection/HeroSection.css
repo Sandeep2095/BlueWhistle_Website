@@ -1,0 +1,12 @@
+.hero-section-main-container {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+}
+
+.hero-img {
+  min-height: 500px;
+  object-fit: cover;
+  background-color: #0e3252;
+  width: 100vw !important;
+}
