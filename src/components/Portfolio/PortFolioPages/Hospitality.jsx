@@ -5,7 +5,6 @@ import Masonry from '@mui/lab/Masonry';
 
 import image from '../../../media/portbanner.jpg';
 
-import img1 from '../../../media/New folder/Amal/Amal (1).jpg';
 import img2 from '../../../media/New folder/Red/Red (2).jpg';
 import img3 from '../../../media/New folder/Red/Red (4).jpg';
 import img4 from '../../../media/New folder/Red/Red (13).jpg';
@@ -26,10 +25,12 @@ import img17 from '../../../media/New folder/Palm/Palm (3).jpg';
 import img18 from '../../../media/New folder/Palm/Palm (4).jpg';
 import img20 from '../../../media/New folder/Palm/Palm (6).jpg';
 import img21 from '../../../media/New folder/Umrao/Umrao (1).jpg';
+import img31 from '../../../media/New folder/Umrao/Umrao (2).jpg';
 import img22 from '../../../media/New folder/Umrao/Umrao (6).jpg';
 import img23 from '../../../media/New folder/Umrao/Umrao (13).jpg';
 import img24 from '../../../media/New folder/Umrao/Umrao (9).jpg';
 import img25 from '../../../media/New folder/Umrao/Umrao (8).jpg';
+import img1 from '../../../media/New folder/Amal/Amal (1).jpg';
 import img29 from '../../../media/New folder/Amal/Amal (15).jpg';
 import img27 from '../../../media/New folder/Amal/Amal (11).jpg';
 import img28 from '../../../media/New folder/Amal/Amal (18).jpg';
@@ -82,7 +83,7 @@ const Hospitality = () => {
 		img27,
 	];
 
-	const design = [img1, img2, img3, img6, img7, img3];
+	const design = [img1, img2, img3, img6, img7, img3, img31];
 	const digital = [
 		img2,
 		img3,
@@ -96,6 +97,7 @@ const Hospitality = () => {
 		img25,
 		img26,
 		img27,
+		img31,
 	];
 
 	const [currCollection, setCurrCollection] = useState(all);

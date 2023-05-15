@@ -5,7 +5,6 @@ import Masonry from '@mui/lab/Masonry';
 
 import image from '../../../media/portbanner.jpg';
 
-import img1 from '../../../media/New folder/Aura/Aura (1).jpg';
 import img2 from '../../../media/New folder/Aveta/Aveta (2).jpg';
 import img3 from '../../../media/New folder/Aveta/Aveta (3).jpg';
 import img4 from '../../../media/New folder/Aveta/Aveta (5).jpg';
@@ -13,11 +12,12 @@ import img5 from '../../../media/New folder/Aveta/Aveta (7).jpg';
 import img6 from '../../../media/New folder/Aveta/Aveta (4).jpg';
 import img26 from '../../../media/New folder/Aveta/Aveta (8).jpg';
 import img7 from '../../../media/New folder/Aveta/Aveta (9).jpg';
+import img11 from '../../../media/New folder/Aveta/Aveta (11).jpg';
 import img8 from '../../../media/New folder/Fitness/Fitne (1).jpg';
 import img9 from '../../../media/New folder/Fitness/Fitne (2).jpg';
 import img10 from '../../../media/New folder/Fitness/Fitne (4).jpg';
-import img11 from '../../../media/New folder/Aveta/Aveta (11).jpg';
 import img12 from '../../../media/New folder/Fitness/Fitne (3).jpg';
+import img1 from '../../../media/New folder/Aura/Aura (1).jpg';
 import img29 from '../../../media/New folder/Aura/Aura (10).jpg';
 import img27 from '../../../media/New folder/Aura/Aura (11).jpg';
 import img28 from '../../../media/New folder/Aura/Aura (5).jpg';

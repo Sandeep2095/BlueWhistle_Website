@@ -4,16 +4,24 @@ import Box from '@mui/material/Box';
 import Masonry from '@mui/lab/Masonry';
 
 import image from '../../../media/portbanner.jpg';
-import img1 from '../../../media/New folder/Ratna/Ratna (1).jpg';
+
 import img2 from '../../../media/New folder/Kasturi/Kasturi (2).jpg';
 import img3 from '../../../media/New folder/Kasturi/Kasturi (4).jpg';
 import img4 from '../../../media/New folder/Kasturi/Kasturi (13).jpg';
 import img5 from '../../../media/New folder/Kasturi/Kasturi (24).jpg';
 import img6 from '../../../media/New folder/Kasturi/Kasturi (1).jpg';
+import img26 from '../../../media/New folder/Kasturi/Kasturi (26).jpg';
+import img37 from '../../../media/New folder/Kasturi/Kasturi (28).jpg';
+import img38 from '../../../media/New folder/Kasturi/Kasturi (29).jpg';
+import img36 from '../../../media/New folder/Kasturi/Kasturi (55).jpg';
+import img1 from '../../../media/New folder/Ratna/Ratna (1).jpg';
 import img7 from '../../../media/New folder/Ratna/Ratna (40).jpg';
 import img8 from '../../../media/New folder/Ratna/Ratna (25).jpg';
 import img9 from '../../../media/New folder/Ratna/Ratna (37).jpg';
 import img10 from '../../../media/New folder/Ratna/Ratna (41).jpg';
+import img30 from '../../../media/New folder/Ratna/Ratna (36).jpg';
+import img34 from '../../../media/New folder/Ratna/Ratna (14).jpg';
+import img31 from '../../../media/New folder/Ratna/Ratna (2).jpg';
 import img11 from '../../../media/New folder/swastik/s (1).jpg';
 import img12 from '../../../media/New folder/swastik/s (2).jpg';
 import img13 from '../../../media/New folder/swastik/s (3).jpg';
@@ -27,18 +35,14 @@ import img20 from '../../../media/New folder/did/did (2).jpg';
 import img21 from '../../../media/New folder/ShreeHari/ShreeHari (33).jpg';
 import img22 from '../../../media/New folder/ShreeHari/ShreeHari (48).jpg';
 import img23 from '../../../media/New folder/ShreeHari/ShreeHari (46).jpg';
-import img24 from '../../../media/New folder/ShreeHari/ShreeHari (13).jpg';
-import img25 from '../../../media/New folder/ShreeHari/a8.jpg';
-import img26 from '../../../media/New folder/Kasturi/Kasturi (26).jpg';
 import img27 from '../../../media/New folder/ShreeHari/ShreeHari (1).jpg';
-import img28 from '../../../media/New folder/sarraf/saraf (1).jpg';
 import img29 from '../../../media/New folder/ShreeHari/ShreeHari (38).jpg';
-import img30 from '../../../media/New folder/Ratna/Ratna (36).jpg';
-import img35 from '../../../media/New folder/ShreeHari/ShreeHari (12).jpg';
-import img31 from '../../../media/New folder/Ratna/Ratna (2).jpg';
+import img24 from '../../../media/New folder/ShreeHari/ShreeHari (13).jpg';
 import img32 from '../../../media/New folder/ShreeHari/ShreeHari (44).jpg';
+import img35 from '../../../media/New folder/ShreeHari/ShreeHari (12).jpg';
+import img25 from '../../../media/New folder/ShreeHari/a8.jpg';
+import img28 from '../../../media/New folder/sarraf/saraf (1).jpg';
 import img33 from '../../../media/New folder/sarraf/saraf (6).jpg';
-import img34 from '../../../media/New folder/Ratna/Ratna (14).jpg';
 
 const Lifestyle = () => {
 	const all = [
@@ -108,6 +112,11 @@ const Lifestyle = () => {
 		img21,
 		img22,
 		img23,
+		img34,
+		img35,
+		img37,
+		img36,
+		img38,
 	];
 	const digital = [img2, img3, img4, img5, img6, img7];
 
