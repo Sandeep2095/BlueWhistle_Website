@@ -5,7 +5,8 @@ import emailjs from '@emailjs/browser';
 
 import { Timestamp, collection, addDoc } from 'firebase/firestore';
 import { ref, uploadBytesResumable, getDownloadURL } from 'firebase/storage';
-import { storage, db, auth } from '../../firebaseConfig';
+
+import { storage, db } from '../../firebaseConfig';
 
 const Career = () => {
 	const form = useRef('');
