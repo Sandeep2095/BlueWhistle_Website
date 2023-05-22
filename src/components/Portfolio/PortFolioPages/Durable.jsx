@@ -5,6 +5,8 @@ import Masonry from '@mui/lab/Masonry';
 
 import image from '../../../media/portbanner.jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import img1 from '../../../media/New folder/Hacekar/Hacekar (1).jpg';
 import img2 from '../../../media/New folder/Hacekar/Hacekar (2).jpg';
 import img3 from '../../../media/New folder/Hacekar/Hacekar (3).jpg';
@@ -139,7 +141,8 @@ const Durable = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

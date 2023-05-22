@@ -23,6 +23,8 @@ import img27 from '../../../media/New folder/Aura/Aura (11).jpg';
 import img28 from '../../../media/New folder/Aura/Aura (5).jpg';
 import img30 from '../../../media/New folder/Aura/Aura (7).jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Health = () => {
 	const all = [
 		img1,
@@ -143,7 +145,8 @@ const Health = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

@@ -5,6 +5,8 @@ import Masonry from '@mui/lab/Masonry';
 
 import image from '../../../media/portbanner.jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import img1 from '../../../media/New folder/Ashoka/Ashoka (1).jpg';
 import img2 from '../../../media/New folder/Ashoka/Ashoka (9).jpg';
 import img3 from '../../../media/New folder/Ashoka/Ashoka (3).jpg';
@@ -154,7 +156,8 @@ const RealEstate = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

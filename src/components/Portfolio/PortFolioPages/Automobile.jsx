@@ -17,6 +17,8 @@ import img9 from '../../../media/New folder/TVS/TVS (9).jpg';
 import img10 from '../../../media/New folder/TVS/TVS (10).jpg';
 import img11 from '../../../media/New folder/TVS/TVS (11).jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Automobile = () => {
 	const all = [
 		img1,
@@ -133,7 +135,8 @@ const Automobile = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

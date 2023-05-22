@@ -20,6 +20,8 @@ import img12 from '../../../media/New folder/edu/edu (12).jpg';
 import img13 from '../../../media/New folder/edu/edu (13).jpg';
 import img14 from '../../../media/New folder/edu/edu (14).jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const Education = () => {
 	const all = [
 		img1,
@@ -147,7 +149,8 @@ const Education = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

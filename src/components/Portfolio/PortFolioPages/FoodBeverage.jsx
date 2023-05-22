@@ -31,6 +31,8 @@ import img23 from '../../../media/New folder/HideOut/Hide (16).jpg';
 import img24 from '../../../media/New folder/HideOut/Hide (22).jpg';
 import img25 from '../../../media/New folder/HideOut/Hide (4).jpg';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 const FoodBeverage = () => {
 	const all = [
 		img1,
@@ -183,7 +185,8 @@ const FoodBeverage = () => {
 					>
 						{currCollection.map((item) => (
 							<div className='img-container' data-aos='fade-up'>
-								<img
+								<LazyLoadImage
+									effect='blur'
 									src={item}
 									alt={item.title}
 									loading='lazy'

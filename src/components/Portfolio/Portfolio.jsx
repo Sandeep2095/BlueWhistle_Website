@@ -13,6 +13,8 @@ import Technology from './PortFolioPages/Technology.jsx';
 import Durable from './PortFolioPages/Durable.jsx';
 import Automobile from './PortFolioPages/Automobile.jsx';
 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 // images and gifs
 import image from '../../media/portbanner.jpg';
 import img1 from '../../media/Categories/1.png';
@@ -99,7 +101,12 @@ const Portfolio = () => {
 						<div class='col'>
 							<div class='card h-100 port-card'>
 								<Link to={`${category.link}`} element {...(<category.comp />)}>
-									<img src={category.src} class='card-img-top' alt='port' />
+									<LazyLoadImage
+										effect='blur'
+										src={category.src}
+										class='card-img-top'
+										alt='port'
+									/>
 								</Link>
 								<div class='card-body port-card-body'>
 									<h4 className='card-title text-center'>{category.title}</h4>
