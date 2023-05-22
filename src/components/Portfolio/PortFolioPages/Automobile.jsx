@@ -31,7 +31,7 @@ const Automobile = () => {
 		img10,
 		img11,
 	];
-	const branding = [img1, img2, img3, img4, img5, img11, img10,];
+	const branding = [img1, img2, img3, img4, img5, img11, img10];
 	const communication = [img4, img7, img3, img2, img7];
 	const design = [img1, img2, img3, img6, img7, img3, img11];
 	const digital = [img2, img3, img4, img5, img6, img7];
@@ -52,7 +52,9 @@ const Automobile = () => {
 					src={image}
 					alt='page top'
 				/>
-				<h2 className='portfolio-text display-1'>AUTOMOBILE</h2>
+				<h2 className='portfolio-text display-1' style={{ fontFamily: 'Cinzel' }}>
+					AUTOMOBILE
+				</h2>
 			</div>
 
 			<div className='container-fluid'>

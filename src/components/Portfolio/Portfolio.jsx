@@ -31,7 +31,7 @@ const Categories = [
 	{ src: img3, title: 'Real Estate', link: '/realEstate', comp: RealEstate },
 	{
 		src: img4,
-		title: 'Food & Beverages',
+		title: 'Food & Beverage',
 		link: '/foodBeve',
 		comp: FoodBeverage,
 	},
@@ -52,17 +52,56 @@ const Portfolio = () => {
 					src={image}
 					alt='page top'
 				/>
-				<h2 className='portfolio-text display-1'>PORTFOLIO</h2>
+				<h2 className='portfolio-text display-1' style={{ fontFamily: 'Cinzel' }}>
+					PORTFOLIO
+				</h2>
 			</div>
-			<div className='container-fluid my-5'>
+			<div className='container mx-auto'>
+				<div className='row'>
+					<div className='col-md-6 col-sm-6'>
+						<h6 style={{ color: '#0e3252' }}>Our Culture</h6>
+						<span className='about-card-line'></span>
+						<h1 className='display-5' style={{ color: '#0e3252' }}>
+							Our goal is to create purposeful work.
+						</h1>
+						<p>
+							Creativity speaks for us! We are a bunch of creative animals, all messed
+							up in chaos and ideas that lead to positivity in every way. We love and
+							live brands together to create trends that give us a taste of success and
+							meet unmatched client satisfaction.
+						</p>
+					</div>
+					<div className='col-md-6 col-sm-6'>
+						<p>
+							At Blue Whistle, we love helping people fall in love with brands. We’ve
+							been doing it for a long time, and we’ve planted our flag right where
+							data, technology, and creativity converge.
+						</p>
+						<br />
+						<p>
+							World is full of boring marketing that doesn’t make anyone feel anything
+							but that’s what your brand is: A feeling, and we live that feeling. We
+							believe that designs are crafted in a way to tell you different stories.
+							We add a touch of filter to our creativity that is eye-catching with a
+							strategy to block deals for advertising and brand building. With a
+							vision, we add solutions to simplicity and a language that attracts
+							people’s interest
+						</p>
+					</div>
+				</div>
+			</div>
+			<div className='container'>
+				<hr />
+			</div>
+			<div className='container-fluid my-5 mx-auto'>
 				<div class='row row-cols-2 row-cols-md-5 g-5'>
 					{Categories.map((category) => (
 						<div class='col'>
-							<div class='card h-100'>
+							<div class='card h-100 port-card'>
 								<Link to={`${category.link}`} element {...(<category.comp />)}>
 									<img src={category.src} class='card-img-top' alt='port' />
 								</Link>
-								<div class='card-body'>
+								<div class='card-body port-card-body'>
 									<h4 className='card-title text-center'>{category.title}</h4>
 								</div>
 							</div>

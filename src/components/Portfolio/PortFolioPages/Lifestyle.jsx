@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Masonry from '@mui/lab/Masonry';
+import { motion } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 
 import image from '../../../media/portbanner.jpg';
 
@@ -224,7 +226,7 @@ const Lifestyle = () => {
 						style={{ margin: '0px' }}
 					>
 						{currCollection.map((item) => (
-							<div className='img-container' data-aos='fade-up'>
+							<motion.div data-aos='fade-up'>
 								<img
 									src={item}
 									alt={item.title}
@@ -238,7 +240,7 @@ const Lifestyle = () => {
 										width: '100%',
 									}}
 								/>
-							</div>
+							</motion.div>
 						))}
 					</Masonry>
 				</Box>
