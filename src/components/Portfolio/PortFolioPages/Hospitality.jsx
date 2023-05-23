@@ -147,17 +147,7 @@ const Hospitality = () => {
 						>
 							BRANDING
 						</div>
-						{/* <div
-							className={
-								'filter-item ' + (currFilter === 'packaging' && 'active-filter-item')
-							}
-							onClick={() => {
-								setCurrCollection(packaging);
-								setCurrFilter('packaging');
-							}}
-						>
-							PACKAGING
-						</div> */}
+
 						<div
 							className={
 								'filter-item ' +
