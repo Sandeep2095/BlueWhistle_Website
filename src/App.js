@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+
 import './App.css';
 import { HashRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
@@ -49,8 +51,17 @@ import JobApplications from './components/admin/jobapplications/JobApplications'
 import PortForHome from './components/PortForHome/PortForHome';
 import Durable from './components/Portfolio/PortFolioPages/Durable';
 import Automobile from './components/Portfolio/PortFolioPages/Automobile';
+import ScreenLoader from './components/ScreenLoader';
 
 function App() {
+	const [loading, setLoading] = React.useState(true);
+
+	useEffect(() => {
+		setTimeout(() => setLoading(false), 1000);
+		window.scrollTo(0, 0);
+	});
+
+	if (loading) return <ScreenLoader />;
 	return (
 		<Router>
 			<div style={{ overflowX: 'hidden' }} className='App'>
