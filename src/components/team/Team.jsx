@@ -575,9 +575,10 @@ const Team = () => {
 									<h3>Mohd. Rishakat</h3>
 									<h6 style={{ color: '#b13f44' }}>Video Editor & Graphic Designer</h6>
 									<p style={{ textAlign: 'justify' }}>
-										An individual responsible for creating content and turning ideas into
-										words for the use of advertising through articles, publications,
-										team-social media as well as other internet content.
+										Creating and delivering motion graphics for various media. Working
+										with art and creative teams to select audio, video, colors, animation,
+										etc. for graphic design. Editing video footage and adding
+										effects/elements to enhance motion graphics.
 									</p>
 									<div className=''>
 										<ul style={iconStyle}>
